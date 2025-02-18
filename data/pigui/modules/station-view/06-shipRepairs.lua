@@ -312,12 +312,12 @@ local function drawPaintshop()
 				end
 
 				ui.sameLine()
-				if ui.button(l.RESET_PREVIEW, Vector2(150, 36)) then
+				if ui.button(l.RESET_PREVIEW, Vector2(columnWidth/4, 36)) then
 					resetPreview()
 				end
 
 				ui.sameLine()
-				if ui.button(l.RANDOM_COLORS, Vector2(150, 36)) then
+				if ui.button(l.RANDOM_COLORS, Vector2(columnWidth/4, 36)) then
 
 					local function randomColor()
 						return Color(Engine.rand:Integer(0,255), Engine.rand:Integer(0,255), Engine.rand:Integer(0,255))
