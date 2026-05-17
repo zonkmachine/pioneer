@@ -484,6 +484,7 @@ static int pushTimeAccel(lua_State *l, const Game::TimeAccel accel)
 {
 	switch (accel) {
 	case Game::TIMEACCEL_PAUSED: lua_pushstring(l, "paused"); break;
+	case Game::TIMEACCEL_SLOW: lua_pushstring(l, "slow"); break;
 	case Game::TIMEACCEL_1X: lua_pushstring(l, "1x"); break;
 	case Game::TIMEACCEL_10X: lua_pushstring(l, "10x"); break;
 	case Game::TIMEACCEL_100X: lua_pushstring(l, "100x"); break;
@@ -515,6 +516,8 @@ static int l_game_set_time_acceleration(lua_State *l)
 	Game::TimeAccel a = Game::TIMEACCEL_PAUSED;
 	if (!accel.compare("paused"))
 		a = Game::TIMEACCEL_PAUSED;
+	else if (!accel.compare("slow"))
+		a = Game::TIMEACCEL_SLOW;
 	else if (!accel.compare("1x"))
 		a = Game::TIMEACCEL_1X;
 	else if (!accel.compare("10x"))
