@@ -700,6 +700,7 @@ void Game::SwitchToNormalSpace()
 
 const float Game::s_timeAccelRates[] = {
 	0.0f,	  // paused
+	0.1f,	  // slowmo
 	1.0f,	  // 1x
 	10.0f,	  // 10x
 	100.0f,	  // 100x
@@ -710,6 +711,7 @@ const float Game::s_timeAccelRates[] = {
 
 const float Game::s_timeInvAccelRates[] = {
 	0.0f,	 // paused
+	0.1f,	 // slowmo
 	1.0f,	 // 1x
 	0.1f,	 // 10x
 	0.01f,	 // 100x
@@ -765,6 +767,9 @@ void Game::RequestTimeAccel(TimeAccel t, bool force)
 void Game::RequestTimeAccelInc(bool force)
 {
 	switch (m_requestedTimeAccel) {
+	case Game::TIMEACCEL_SLOW:
+		m_requestedTimeAccel = Game::TIMEACCEL_1X;
+		break;
 	case Game::TIMEACCEL_1X:
 		m_requestedTimeAccel = Game::TIMEACCEL_10X;
 		break;
@@ -787,6 +792,9 @@ void Game::RequestTimeAccelInc(bool force)
 void Game::RequestTimeAccelDec(bool force)
 {
 	switch (m_requestedTimeAccel) {
+	case Game::TIMEACCEL_1X:
+		m_requestedTimeAccel = Game::TIMEACCEL_SLOW;
+		break;
 	case Game::TIMEACCEL_10X:
 		m_requestedTimeAccel = Game::TIMEACCEL_1X;
 		break;
