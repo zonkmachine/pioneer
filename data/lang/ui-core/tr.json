@@ -69,7 +69,7 @@
   },
   "AUDIO_BACKEND": {
     "description": "Audio backend label in settings menu",
-    "message": "Audio Backend"
+    "message": "Ses Sistemi"
   },
   "AUTOMATED_MESSAGE": {
     "description": "For comm messages from bots",
@@ -97,11 +97,11 @@
   },
   "BINAURAL_RENDERING": {
     "description": "Label of the binaural rendering checkbox in the audio settings menu",
-    "message": "Binaural Rendering"
+    "message": "Binaural İşleme"
   },
   "BINAURAL_RENDERING_DESC": {
     "description": "Tooltip of the binaural rendering checkbox in the audio settings menu",
-    "message": "When enabled, HRTF filters are applied to the audio output. Works best with headphones."
+    "message": "Etkinleştirildiği zaman, ses çıkışına HRTF filteleri uygulanır. Kulaklıklarla daha iyi çalışır."
   },
   "BODY_IN_ROUTE": {
     "description": "Label indicating a star is part of a planned hyperjump route",
@@ -637,7 +637,7 @@
   },
   "EQUIPMENT_ALREADY_INSTALLED_HERE": {
     "description": "Message indicating this equipment item is already installed.",
-    "message": "This equipment item is already installed here."
+    "message": "Bu ekipman ögesi halihazırda kurulu."
   },
   "EQUIPMENT_CAPACITY": {
     "description": "The equipment capacity of a ship",
@@ -1205,7 +1205,7 @@
   },
   "HUD_GRAVITY_INDICATOR": {
     "description": "Tooltip: describe what the gravity indicator shows",
-    "message": "Local gravity acceleration (scale: ship maximum acceleration)"
+    "message": "Yerel kütleçekim ivmesi (ölçek: geminin maksimum ivmesi)"
   },
   "HUD_HULL_STRENGTH": {
     "description": "Tooltip: Hull Strength.",
@@ -1273,11 +1273,11 @@
   },
   "HUD_ORBIT_APOAPSIS": {
     "description": "Tooltip: Current orbital apoapsis.",
-    "message": "Current orbit apoapsis"
+    "message": "Anlık yörünge yerötesi"
   },
   "HUD_ORBIT_PERIAPSIS": {
     "description": "Tooltip: Current orbital apoapsis.",
-    "message": "Current orbit periapsis"
+    "message": "Anlık yörünge yerberisi"
   },
   "HUD_RADAR_DISTANCE": {
     "description": "Tooltip: Current distance of the radar.",
@@ -1333,7 +1333,7 @@
   },
   "HUD_THRUST_INDICATOR": {
     "description": "Tooltip: describe what the thrust indicator shows",
-    "message": "Show current thrust levels for maneuvering (outer ring) and primary or retro engines (center circle)"
+    "message": "Manevra için anlık itki seviyelerini (dış çember) ve ana veya retro itkiyi göster (merkez daire)"
   },
   "HUD_WARNING_DESCENT_RATE": {
     "description": "Shown on HUD as a warning flasher",
@@ -2377,7 +2377,7 @@
   },
   "SET_AS_TARGET": {
     "description": "",
-    "message": "Set destination as navigation target"
+    "message": "Varış noktasını navigasyon hedefi olarak seç"
   },
   "SET_JUMP_TARGET": {
     "description": "Button tooltip which sets the jump route to the selected body",
@@ -2569,7 +2569,7 @@
   },
   "SYSTEM_FACTION": {
     "description": "Tooltip indicating the faction controlling this system",
-    "message": "Controlling faction jurisdiction"
+    "message": "Kontrol eden organizasyon"
   },
   "SYSTEM_INFORMATION": {
     "description": "Tooltip / label indicating information about a selected star system",
@@ -2577,11 +2577,11 @@
   },
   "SYSTEM_NUM_STARS": {
     "description": "Tooltip indicating the system stellar arrangement",
-    "message": "Number of stars in system"
+    "message": "Sistemdeki yıldız sayısı"
   },
   "SYSTEM_SECURITY_1": {
     "description": "Security category for systems with low lawlessness. A nod to Elite's pilot ratings.",
-    "message": "Safe"
+    "message": "Güvenli"
   },
   "SYSTEM_SECURITY_2": {
     "description": "Security category for systems with low lawlessness. A nod to Elite's pilot ratings.",
@@ -2593,7 +2593,7 @@
   },
   "SYSTEM_SECURITY_4": {
     "description": "Security category for systems with low lawlessness. A nod to Elite's pilot ratings.",
-    "message": "Very Dangerous"
+    "message": "Çok Tehlikeli"
   },
   "SYSTEM_SECURITY_5": {
     "description": "Security category for systems with low lawlessness. A nod to Elite's pilot ratings.",
@@ -2601,7 +2601,7 @@
   },
   "SYSTEM_SECURITY_TOOLTIP": {
     "description": "Tooltip introducing the system security rating",
-    "message": "System safety rating"
+    "message": "Sistem güvenlik derecesi"
   },
   "TECH_CERTIFIED": {
     "description": "Lobby screen shows the tech level (an integer number) of the station",
@@ -2821,7 +2821,7 @@
   },
   "VIEW_DESTINATION": {
     "description": "Tooltip indicating the button will change the current view to the destination of a route.",
-    "message": "View Destination"
+    "message": "Varış Noktasını Gör"
   },
   "VISIT_PAINTSHOP": {
     "description": "Ship Repair tab button.",

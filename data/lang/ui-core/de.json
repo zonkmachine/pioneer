@@ -69,7 +69,7 @@
   },
   "AUDIO_BACKEND": {
     "description": "Audio backend label in settings menu",
-    "message": "Audio Backend"
+    "message": "Audio-Backend"
   },
   "AUTOMATED_MESSAGE": {
     "description": "For comm messages from bots",
@@ -97,11 +97,11 @@
   },
   "BINAURAL_RENDERING": {
     "description": "Label of the binaural rendering checkbox in the audio settings menu",
-    "message": "Binaural Rendering"
+    "message": "Binaurale Wiedergabe"
   },
   "BINAURAL_RENDERING_DESC": {
     "description": "Tooltip of the binaural rendering checkbox in the audio settings menu",
-    "message": "When enabled, HRTF filters are applied to the audio output. Works best with headphones."
+    "message": "Wenn diese Funktion aktiviert ist, werden HRTF-Filter auf den Audio-Output angewendet. Funktioniert am besten mit Kopfhörern."
   },
   "BODY_IN_ROUTE": {
     "description": "Label indicating a star is part of a planned hyperjump route",
@@ -1273,11 +1273,11 @@
   },
   "HUD_ORBIT_APOAPSIS": {
     "description": "Tooltip: Current orbital apoapsis.",
-    "message": "Current orbit apoapsis"
+    "message": "Apoapsis der aktuellen Umlaufbahn"
   },
   "HUD_ORBIT_PERIAPSIS": {
     "description": "Tooltip: Current orbital apoapsis.",
-    "message": "Current orbit periapsis"
+    "message": "Periapsis der aktuellen Umlaufbahn"
   },
   "HUD_RADAR_DISTANCE": {
     "description": "Tooltip: Current distance of the radar.",
@@ -1333,7 +1333,7 @@
   },
   "HUD_THRUST_INDICATOR": {
     "description": "Tooltip: describe what the thrust indicator shows",
-    "message": "Show current thrust levels for maneuvering (outer ring) and primary or retro engines (center circle)"
+    "message": "Zeigt den Schub der Manövrier-Schubdüsen (äußerer Ring) und der Hauptschubdüse (innerer Kreis)"
   },
   "HUD_WARNING_DESCENT_RATE": {
     "description": "Shown on HUD as a warning flasher",
@@ -2377,7 +2377,7 @@
   },
   "SET_AS_TARGET": {
     "description": "",
-    "message": "Set destination as navigation target"
+    "message": "Ziel als Navigationsziel setzen"
   },
   "SET_JUMP_TARGET": {
     "description": "Button tooltip which sets the jump route to the selected body",
